@@ -13,12 +13,19 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 700px;
-  background: rgb(189, 223, 245);
 }
 
 .header-row {
-    background: lightseagreen;
+    background: darkcyan;
     color: #fff
+}
+
+.dataRows:nth-child(even) {
+    background: rgb(189, 223, 245);
+}
+
+.dataRows:nth-child(odd) {
+    background: cornflowerblue;
 }
 
 th, td {
